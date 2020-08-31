@@ -3,8 +3,8 @@ on:
     paths:
       - '.github/workflows/setup_acr_trigger.yml' 
 env:
- RESOURCE_GROUP: ignitedemo4
- CONTAINER_REGISTRY_NAME: acrevivek1234
+ RESOURCE_GROUP: igniteddemo5
+ CONTAINER_REGISTRY_NAME: acrevivek12345
  
 jobs:
     build-and-deploy:
