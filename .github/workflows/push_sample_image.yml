@@ -4,8 +4,8 @@ on:
    - '.github/workflows/push_sample_image.yml' 
 
 env:
- RESOURCE_GROUP: ignitedemo1
- CONTAINER_REGISTRY_NAME: acrevivek12
+ RESOURCE_GROUP: ignitedemo4
+ CONTAINER_REGISTRY_NAME: acrevivek1234
  
 jobs:
     build-and-deploy:
