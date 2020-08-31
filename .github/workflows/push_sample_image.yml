@@ -1,6 +1,8 @@
-on: [push]
-name: Linux_Container_Workflow
- 
+on: 
+ push:
+  paths:
+   - '.github/workflows/push_sample_image.yml' 
+
 env:
  RESOURCE_GROUP: ignitedemo1
  CONTAINER_REGISTRY_NAME: acrevivek12
