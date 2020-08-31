@@ -1,7 +1,7 @@
 on: 
  push:
     paths:
-      - '.github/workflows/setup_acr_trigger.yml' 
+      - '.github/workflows/setup_acr_trigger.yml'  
 env:
  RESOURCE_GROUP: ignitedemo5 
  CONTAINER_REGISTRY_NAME: acrevivek123456
