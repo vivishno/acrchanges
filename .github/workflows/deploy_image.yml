@@ -5,7 +5,7 @@ on:
 
 env:
    CLUST_NAME: clust
-   RESOURCE_GROUP: igniteddemo5
+   RESOURCE_GROUP: ignitedemo5
    HOST_NAME: ${{ github.event.client_payload.data.request.host }}
    REPO_NAME: ${{ github.event.client_payload.data.request.host }}/${{ github.event.client_payload.data.target.repository }}
    REPO_VERSION: ${{ github.event.client_payload.data.target.tag }}
